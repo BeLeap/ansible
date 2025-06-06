@@ -370,3 +370,6 @@ kubeadm_patches: []
 
 # Set to true to remove the role binding to anonymous users created by kubeadm
 remove_anonymous_access: false
+
+kube_kubeadm_apiserver_extra_args:
+  enable-aggregator-routing: true
