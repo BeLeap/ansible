@@ -16,3 +16,5 @@ packages:
     # - tiptop
     - cpuid
     - msr-tools
+    - strace
+    - htop
