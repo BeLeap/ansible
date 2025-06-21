@@ -1,0 +1,5 @@
+---
+- name: dnf
+  when: ansible_facts['pkg_mgr'] == 'dnf'
+  ansible.builtin.dnf:
+    name: "{{ packages.dnf }}"

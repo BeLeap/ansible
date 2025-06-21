@@ -1,0 +1,5 @@
+---
+- name: Setup all servers
+  hosts: all
+  roles:
+    - linux_crisis_tools

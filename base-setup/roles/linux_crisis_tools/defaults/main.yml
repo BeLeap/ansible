@@ -1,0 +1,18 @@
+packages:
+  dnf:
+    - git
+    - procps-ng
+    - util-linux
+    - sysstat
+    - iproute
+    - numactl
+    - tcpdump
+    - kernel-tools
+    - bcc-tools
+    - bpftrace
+    - trace-cmd
+    # - nicstat
+    - ethtool
+    # - tiptop
+    - cpuid
+    - msr-tools
