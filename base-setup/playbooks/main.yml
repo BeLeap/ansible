@@ -3,3 +3,4 @@
   hosts: all
   roles:
     - linux_crisis_tools
+    - custom_path

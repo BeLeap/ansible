@@ -1,0 +1,5 @@
+---
+- name: copy path file
+  ansible.builtin.copy:
+    src: 99-custom-path.sh
+    dest: /etc/profile.d/99-custom-path.sh
